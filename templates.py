@@ -4,7 +4,7 @@ from pathlib import Path
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name="Credi_Fault"
+project_name="Credit_Fault"
 
 list_of_files=[
     f"{project_name}__init__.py",
