@@ -7,20 +7,23 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 project_name="Credit_Fault"
 
 list_of_files=[
-    f"{project_name}__init__.py",
-    f"{project_name}/components/__init__.py",
-    f"{project_name}/components/data_ingestion.py",
-    f"{project_name}/components/data_transformation.py",
-    f"{project_name}/components/model_trainer.py",
-    f"{project_name}/pipeline/__init__.py",
-    f"{project_name}/pipeline/training_pipeline.py",
-    f"{project_name}/pipeline/prediction_pipeline.py",
-    f"{project_name}/utils/__init__.py",
+    f"src/{project_name}/__init__.py",
+    f"src/{project_name}/components/__init__.py",
+    f"src/{project_name}/components/data_ingestion.py",
+    f"src/{project_name}/components/data_transformation.py",
+    f"src/{project_name}/components/model_trainer.py",
+    f"src/{project_name}/pipeline/__init__.py",
+    f"src/{project_name}/pipeline/training_pipeline.py",
+    f"src/{project_name}/pipeline/prediction_pipeline.py",
+    f"src/{project_name}/utils.py",
+    f"src/{project_name}/logger.py",
+    f"src/{project_name}/exception.py",
     "setup.py",
     "app.py",
     "requirements.txt",
     "train.py",
     "template/index.html"
+    
     
 ]
 

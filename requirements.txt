@@ -1,8 +1,11 @@
 pandas
 numpy
-scikit-learn
 matplotlib
 seaborn
+pymysql
+python-dotenv
+Flask
 catboost
 xgboost
--e .
+scikit-learn
+-e.
