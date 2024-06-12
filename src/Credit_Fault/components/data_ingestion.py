@@ -21,7 +21,7 @@ class DataIngestion:
         try:
             # Use raw string or replace backslashes with forward slashes
             #data_path = r'D:\MLPROJECTS\notebook\data\data.csv'
-            data_path=r'D:\Credit_Card\notebook\data\Credit_Card.csv'
+            data_path=r'D:\Credit_Card\notebook\data\raw.csv'
             df = pd.read_csv(data_path)
             
             logging.info("Reading completed from the data file")
