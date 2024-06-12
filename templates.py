@@ -1,3 +1,6 @@
+# This code project structure
+
+
 import os
 import logging 
 from pathlib import Path
@@ -34,9 +37,7 @@ for filepath in list_of_files:
 
     if filedir != "":
         os.makedirs(filedir, exist_ok= True)
-        logging.info("Templates created")
     
-
     if (not os.path.exists(filepath)) or (os.path.getsize==0):
         with open(filepath, "w") as f:
             pass
