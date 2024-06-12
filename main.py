@@ -3,7 +3,7 @@ from src.Credit_Fault.logger import logging
 from src.Credit_Fault.exception import CustomException
 from src.Credit_Fault.components.data_ingestion import DataIngestionConfig, DataIngestion
 from src.Credit_Fault.components.data_transformation import DataTransformation
-
+from src.Credit_Fault.components.model_trainer import ModelTrainer
 
 if __name__=="__main__":
     logging.info("The Execution has started")
@@ -19,9 +19,9 @@ if __name__=="__main__":
         train_arr, test_arr, _ = data_transformation.initiate_data_transformation(train_data_path, test_data_path)
 
         # Model Training
-        #model_trainer = ModelTrainer()
-        #best_model_score = model_trainer.initiate_model_trainer(train_arr, test_arr)
-        #print(best_model_score)
+        model_trainer = ModelTrainer()
+        best_model_score = model_trainer.initiate_model_trainer(train_arr, test_arr)
+        print(best_model_score)
 
     except Exception as e:
         logging.info('Custom Exception')
