@@ -8,4 +8,6 @@ Flask
 catboost
 xgboost
 scikit-learn
+mlflow
+dagshub
 -e.

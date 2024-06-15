@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Credit_Card/mlruns/0/98ca1abce84645cd98f2428fbdf2a5a3/artifacts
+end_time: 1718471129423
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 98ca1abce84645cd98f2428fbdf2a5a3
+run_name: zealous-loon-465
+run_uuid: 98ca1abce84645cd98f2428fbdf2a5a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718471100245
+status: 3
+tags: []
+user_id: Abhi
